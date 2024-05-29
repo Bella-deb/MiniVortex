@@ -6,7 +6,6 @@ module.exports = {
     owner: false,
     category: "info",
   },
-  cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("support")
     .setDescription("📜 MiniVortex's Support Server!")

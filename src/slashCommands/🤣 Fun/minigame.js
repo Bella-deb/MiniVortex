@@ -4,12 +4,10 @@ module.exports = {
   config: {
     owner: false,
     premium: false,
-    nsfw: false,
     category: "fun",
     description: "🕹️ Play a minigame!",
     usage: "minigame <minigame>",
   },
-  cooldown: 10,
   data: new SlashCommandBuilder()
     .setDMPermission(false)
     .setDescription("🕹️ Play a minigame!")

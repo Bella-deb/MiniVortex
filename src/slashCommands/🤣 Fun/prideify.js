@@ -10,7 +10,6 @@ module.exports = {
     description: "🧑‍🤝‍🧑 Generates a gay image of your avatar!",
     usage: "prideify <user>",
   },
-  cooldown: 3,
   data: new SlashCommandBuilder()
     .setName("prideify")
     .setDMPermission(false)

@@ -10,7 +10,6 @@ module.exports = {
     category: "info",
     disabled: true,
   },
-  cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("policy")
     .setDescription("📜 MiniVortex's Privacy Policy and Terms of Service!")

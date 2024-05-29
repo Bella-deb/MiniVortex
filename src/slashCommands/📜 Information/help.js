@@ -12,7 +12,6 @@ module.exports = {
     owner: false,
     category: "info",
   },
-  cooldown: 5,
   data: new SlashCommandBuilder()
     .setName("help")
     .setDescription("📋 List all commands or info about a specific command")
